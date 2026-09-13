@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Austin T. Andres — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="shell">
+
+  <nav class="sidebar" aria-label="Section navigation">
+    <div class="sidebar-head">JOHN-AUSTIN-ANDRES / portfolio</div>
+    <ul class="tree">
+      <li class="tree-item"><a href="#about" data-target="about"><span class="chip md">MD</span> readme.md</a></li>
+      <li class="tree-item"><a href="#skills" data-target="skills"><span class="chip json">JSON</span> skills.json</a></li>
+      <li class="tree-item"><a href="#experience" data-target="experience"><span class="chip log">LOG</span> experience.log</a></li>
+      <li class="tree-item"><a href="#education" data-target="education"><span class="chip md">MD</span> education.md</a></li>
+      <li class="tree-folder">
+        <button id="folderToggle" aria-expanded="true">
+          <span class="folder-caret">▾</span> projects/
+        </button>
+        <ul class="tree-sub" id="folderList">
+          <li class="tree-item"><a href="#tc-01" data-target="tc-01"><span class="chip py">PY</span> tc_01_filipino_nlp.py</a></li>
+          <li class="tree-item"><a href="#tc-02" data-target="tc-02"><span class="chip py">PY</span> tc_02_bert_hatespeech.py</a></li>
+        </ul>
+      </li>
+      <li class="tree-item"><a href="#certifications" data-target="certifications"><span class="chip yml">YML</span> certifications.yml</a></li>
+      <li class="tree-item"><a href="#contact" data-target="contact"><span class="chip sh">SH</span> contact.sh</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="about" class="hero">
+      <div class="file-label"><span class="chip md">MD</span> readme.md</div>
+      <div class="hero-top">
+        <div class="monogram">JA</div>
+        <div>
+          <div class="status-badge">STATUS: PASS — ALL SYSTEMS OPERATIONAL</div>
+        </div>
+      </div>
+      <h1>John Austin T. Andres</h1>
+      <p class="role-line">Computer science graduate · quality assurance &amp; software development</p>
+      <p>I'm a QA analyst turned builder — I've spent as much time breaking software as making it, which mostly means I notice the edge cases other people skip. My background runs from manual and automated testing to full-stack development to text-classification research, and I like projects that sit at the boundary between "does it work" and "does it work well."</p>
+      <p>Based in Castillejos, Zambales, Philippines. Open to QA, software development, and data-adjacent roles.</p>
+      <div class="meta-row">
+        <a href="mailto:austinandres360@gmail.com">austinandres360@gmail.com</a>
+        <a href="tel:+639205277475">+63 920 527 7475</a>
+        <span>Castillejos, Zambales, PH</span>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="file-label"><span class="chip json">JSON</span> skills.json</div>
+      <h2>Skills</h2>
+      <p>Grouped the way you'd read a stack, not a resume.</p>
+
+      <div class="skill-group">
+        <div class="skill-group-label">"programming_languages":</div>
+        <div class="pill-row">
+          <span class="pill">JavaScript</span><span class="pill">Java</span><span class="pill">Python</span><span class="pill">PHP</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">"web_development":</div>
+        <div class="pill-row"><span class="pill">HTML</span><span class="pill">CSS</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">"databases":</div>
+        <div class="pill-row"><span class="pill">MySQL</span><span class="pill">MongoDB</span><span class="pill">PostgreSQL</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">"frameworks_and_tools":</div>
+        <div class="pill-row">
+          <span class="pill">React.js</span><span class="pill">Selenium (Java &amp; Python)</span><span class="pill">Electron.js</span>
+          <span class="pill">IntelliJ</span><span class="pill">VS Code</span><span class="pill">PyCharm</span><span class="pill">Eclipse</span>
+          <span class="pill">Google Suite</span><span class="pill">MS Office</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">"working_style":</div>
+        <div class="pill-row">
+          <span class="pill">Curious</span><span class="pill">Listener</span><span class="pill">Open-minded</span>
+          <span class="pill">Team player</span><span class="pill">Attentive</span><span class="pill">Keeps learning</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="file-label"><span class="chip log">LOG</span> experience.log</div>
+      <h2>Work Experience</h2>
+
+      <div class="log-entry">
+        <div class="log-meta">2022-06 → 2022-08 <span class="log-level">[INFO]</span> Infor Manila</div>
+        <h3>QA Analyst — University OJT / Practicum</h3>
+        <p>Tested software applications to identify and resolve bugs before release.</p>
+        <ul>
+          <li>Ran manual testing, smoke testing, and train testing against assigned test cases.</li>
+          <li>Wrote test case documentation and built automated tests with Selenium (Java).</li>
+        </ul>
+      </div>
+
+      <div class="log-entry">
+        <div class="log-meta">2019 <span class="log-level">[INFO]</span> Entrophy Internet Cafe, Castillejos, Zambales</div>
+        <h3>Data Encoder &amp; Computer Technician — SHS Work Immersion</h3>
+        <p>Split between keeping the shop's records straight and keeping its hardware running.</p>
+        <ul>
+          <li>Maintained the client database, and assisted with accounting, billing, and timekeeping records.</li>
+          <li>Assembled and disassembled computer systems; diagnosed and fixed hardware and software issues.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="file-label"><span class="chip md">MD</span> education.md</div>
+      <h2>Education</h2>
+
+      <div class="edu-card">
+        <h3>BS in Computer Science</h3>
+        <div class="edu-period">Saint Louis University, SAMCIS — Baguio City · Aug 2019 – Jul 2023</div>
+        <p style="margin:0;">Relevant coursework: Computer Programming, Applications Development, Web Development.</p>
+        <span class="edu-award">★ Dean's Lister, 1st Year – 4th Year</span>
+      </div>
+
+      <div class="edu-card">
+        <h3>Information and Communication Technology (ICT)</h3>
+        <div class="edu-period">St. Nicholas Academy of Castillejos, Inc. · Aug 2017 – Apr 2019</div>
+        <p style="margin:0;">Relevant coursework: Computer Programming (Java — Object-Oriented Programming), Web Development.</p>
+        <span class="edu-award">★ Work Immersion Award</span>
+      </div>
+    </section>
+
+    <section id="projects-heading" style="padding-bottom: 0;">
+      <div class="file-label"><span class="chip py">PY</span> projects/</div>
+      <h2>Test Cases — University Projects</h2>
+      <p>The two research projects below, documented the way I'd document any test: setup, method, and result.</p>
+    </section>
+
+    <section id="tc-01" style="padding-top: 0;">
+      <div class="testcase">
+        <div class="testcase-head">
+          <span>TC-01 · tc_01_filipino_nlp.py</span>
+          <span class="testcase-pass">PASS</span>
+        </div>
+        <div class="testcase-body">
+          <h3>Multi-classification for Filipino Text with Emojis using LDA and Multinomial Naive Bayes</h3>
+          <div class="tc-field">
+            <div class="tc-field-label">Setup</div>
+            <p>Built an automated scraping tool with Selenium to collect Filipino-language posts and emojis from Facebook.</p>
+          </div>
+          <div class="tc-field">
+            <div class="tc-field-label">Method</div>
+            <p>Preprocessed the dataset, then trained and tested LDA and Multinomial Naive Bayes models for multi-label classification.</p>
+          </div>
+          <div class="tc-field">
+            <div class="tc-field-label">Result</div>
+            <p>Identified potential relationships between variables and helped build out the performance metrics for both models.</p>
+          </div>
+          <div class="tag-row">
+            <span class="pill">Python</span><span class="pill">Selenium</span><span class="pill">Google Sheets</span><span class="pill">Jupyter Notebook</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tc-02">
+      <div class="testcase">
+        <div class="testcase-head">
+          <span>TC-02 · tc_02_bert_hatespeech.py</span>
+          <span class="testcase-pass">PASS</span>
+        </div>
+        <div class="testcase-body">
+          <h3>Detection and Categorization of Hateful Speech in Social Media via Fine-Tuned BERT</h3>
+          <div class="tc-field">
+            <div class="tc-field-label">Setup</div>
+            <p>Fine-tuned a BERT model for multitask classification of hateful speech across social media text.</p>
+          </div>
+          <div class="tc-field">
+            <div class="tc-field-label">Method</div>
+            <p>Preprocessed the dataset — lower-casing, stemming, stop-word removal, lemmatization — then explored it to surface relationships between variables.</p>
+          </div>
+          <div class="tc-field">
+            <div class="tc-field-label">Result</div>
+            <p>Finalized the model's performance metrics.</p>
+          </div>
+          <div class="tag-row">
+            <span class="pill">Python</span><span class="pill">PostgreSQL</span><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">Google Sheets</span><span class="pill">Jupyter Notebook</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class="file-label"><span class="chip yml">YML</span> certifications.yml</div>
+      <h2>Certifications &amp; Trainings</h2>
+
+      <div class="cert-row">
+        <div>
+          <div class="cert-name">Python Automation and Testing Course</div>
+          <div class="cert-issuer">Shea Hanson · LinkedIn Learning</div>
+        </div>
+        <div class="cert-date">May 25, 2026</div>
+      </div>
+      <div class="cert-row">
+        <div>
+          <div class="cert-name">Functional Programming with Java</div>
+          <div class="cert-issuer">StackLeague × Recruitday Tech Session · Facebook Livestream</div>
+        </div>
+        <div class="cert-date">May 4, 2022</div>
+      </div>
+      <div class="cert-row">
+        <div>
+          <div class="cert-name">Accenture JLP Orientation</div>
+          <div class="cert-issuer">Microsoft Teams Live</div>
+        </div>
+        <div class="cert-date">Jun 4, 2021</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="file-label"><span class="chip sh">SH</span> contact.sh</div>
+      <h2>Contact</h2>
+      <div class="terminal" id="terminal">
+        <div class="term-line"><span class="term-prompt">$</span><span class="term-output">whoami</span></div>
+        <div class="term-line"><span class="term-output">john_austin_andres — qa analyst / developer</span></div>
+        <div class="term-line"><span class="term-prompt">$</span><span class="term-output">cat contact.txt</span></div>
+        <div class="term-line"><span class="term-output">email: <a href="mailto:austinandres360@gmail.com">austinandres360@gmail.com</a></span></div>
+        <div class="term-line"><span class="term-output">phone: <a href="tel:+639205277475">+63 920 527 7475</a></span></div>
+        <div class="term-line"><span class="term-output">location: Castillejos, Zambales, Philippines</span></div>
+      </div>
+      <div class="copy-row">
+        <button class="copy-btn" data-copy="austinandres360@gmail.com">Copy email</button>
+        <button class="copy-btn" data-copy="+639205277475">Copy phone</button>
+      </div>
+    </section>
+
+    <footer>
+      built with html, css, and one too many test cases. last updated 2026.
+    </footer>
+
+  </main>
+</div>
+
+<div class="statusbar">
+  <div class="statusbar-left">
+    <span><span class="dot"></span>main</span>
+    <span class="sb-hide-mobile" id="sb-file">readme.md</span>
+  </div>
+  <div class="statusbar-right">
+    <span class="sb-hide-mobile" id="sb-clock">--:--:--</span>
+    <span>PH</span>
+  </div>
+</div>
+
+<script>
+  // scrollspy: highlight active sidebar item + update status bar file
+  const navLinks = Array.from(document.querySelectorAll('.tree-item > a'));
+  const sections = navLinks
+    .map(a => document.getElementById(a.dataset.target))
+    .filter(Boolean);
+
+  const sbFile = document.getElementById('sb-file');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navLinks.forEach(a => a.classList.toggle('active', a.dataset.target === id));
+        const activeLink = navLinks.find(a => a.dataset.target === id);
+        if (activeLink) sbFile.textContent = activeLink.textContent.trim();
+      }
+    });
+  }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+
+  sections.forEach(s => observer.observe(s));
+
+  // folder toggle
+  const folderToggle = document.getElementById('folderToggle');
+  const folderList = document.getElementById('folderList');
+  folderToggle.addEventListener('click', () => {
+    const expanded = folderToggle.getAttribute('aria-expanded') === 'true';
+    folderToggle.setAttribute('aria-expanded', String(!expanded));
+    folderList.style.display = expanded ? 'none' : '';
+    folderToggle.querySelector('.folder-caret').textContent = expanded ? '▸' : '▾';
+  });
+
+  // clock (Asia/Manila)
+  const sbClock = document.getElementById('sb-clock');
+  function tick(){
+    const now = new Date();
+    sbClock.textContent = new Intl.DateTimeFormat('en-PH', {
+      timeZone: 'Asia/Manila', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+    }).format(now);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  // terminal typing reveal, once
+  const termLines = document.querySelectorAll('#terminal .term-line');
+  let terminalPlayed = false;
+  const termObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !terminalPlayed) {
+        terminalPlayed = true;
+        termLines.forEach((line, i) => {
+          setTimeout(() => line.classList.add('show'), i * 220);
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+  termObserver.observe(document.getElementById('terminal'));
+
+  // copy buttons
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const text = btn.dataset.copy;
+      try {
+        await navigator.clipboard.writeText(text);
+        const original = btn.textContent;
+        btn.textContent = 'Copied';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 1600);
+      } catch (e) {
+        // clipboard unavailable — fail silently, mailto/tel links still work
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
